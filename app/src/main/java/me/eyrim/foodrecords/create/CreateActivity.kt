@@ -23,7 +23,7 @@ class CreateActivity : AppCompatActivity() {
         binding.recordNameEditText.setOnFocusChangeListener {view, hasFocus ->
             if (!hasFocus) {
                 // Save the new value as the new recipe name
-
+                //
             }
         }
     }
